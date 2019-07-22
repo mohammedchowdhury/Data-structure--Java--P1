@@ -1,4 +1,4 @@
-package Stack;
+package SLL;
 
 class Node<T>{
 	private T data;

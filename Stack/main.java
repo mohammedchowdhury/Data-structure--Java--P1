@@ -1,15 +1,20 @@
 package Stack;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
-		LinkedListStack<Integer> stack  = new LinkedListStack<>(); 
-		stack.push(1);
-
-		stack.push(2);
 		
-		stack.peek();
-	
+		LinkedStack<Integer> stack = new LinkedStack<>(); 
+		stack.push(6);
+		stack.push(5);
+		stack.push(4);
+		System.out.println(stack.pop()); 
+		System.out.println(stack.pop()); 
+		System.out.println(stack.pop()); 
+		System.out.println(stack.peek()); 
+		
+		
+
 	}
 
 }
